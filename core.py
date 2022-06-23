@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 from googletrans import Translator
 
-from englishwiktionaryparser.utils import WordData, Definition
+from .utils import WordData, Definition
 
 PARTS_OF_SPEECH = [
     "noun", "verb", "adjective", "adverb", "determiner",
